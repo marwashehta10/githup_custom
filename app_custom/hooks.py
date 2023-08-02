@@ -7,6 +7,22 @@ app_description = "It is a custom app"
 app_email = "marwa@gmail.com"
 app_license = "MIT"
 
+test_string = "value"
+test_list = ["value"]
+test_dict = {
+    "key": "value"
+}
+fixtures = [
+       {
+         "dt": "Custom Field", 
+         "filters":[["name", "in", ['Sales Invoice-section_break_20','Sales Invoice-delivery_note','Sales Invoice-supplier_ref', 'Sales Invoice-buyers_order_no', 'Sales Invoice-despatch_document_no','Sales Invoice-despatched_through', 'Sales Invoice-country', 'Sales Invoice-delivery_note_date', 'Sales Invoice-other_references','Sales Invoice-terms_of_delivery', 'Sales Invoice-column_break_28','Sales Invoicebuyers_order_date', 'Sales Invoice-mode_terms_of_payment','Sales Invoice-destination', 'Sales Invoice-e_way_bill']]]
+      },
+      {
+        "dt": "Print Format", 
+        "filters": [["name", "in", ["challan_cum_tax_invoice"]]]
+      }
+]
+
 # Includes in <head>
 # ------------------
 
